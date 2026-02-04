@@ -1,0 +1,87 @@
+########################################
+# OS / Editor
+########################################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+# VSCode
+.vscode/
+# Eclipse
+.project
+.classpath
+.settings/
+
+########################################
+# Logs
+########################################
+*.log
+logs/
+**/logs/
+
+########################################
+# Env / Secrets
+########################################
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+########################################
+# Node / Frontend (Vite/React)
+########################################
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+frontend/.env
+frontend/.env.*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+########################################
+# Java / Spring Boot (Gradle/Maven)
+########################################
+backend/.gradle/
+backend/build/
+backend/target/
+backend/out/
+backend/*.log
+backend/.classpath
+backend/.project
+backend/.settings/
+
+########################################
+# Python / FastAPI
+########################################
+ai/.venv/
+ai/venv/
+ai/__pycache__/
+ai/**/*.pyc
+ai/.pytest_cache/
+ai/.mypy_cache/
+ai/.ruff_cache/
+ai/.coverage
+ai/htmlcov/
+
+########################################
+# Docker / Infra
+########################################
+**/.docker/
+**/*.pid
+
+########################################
+# Misc
+########################################
+*.tmp
+*.swp
+*.swo
