@@ -85,3 +85,10 @@ ai/htmlcov/
 *.tmp
 *.swp
 *.swo
+
+
+.gradle/
+build/
+out/
+*.iml
+.idea/
